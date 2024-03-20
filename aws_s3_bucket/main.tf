@@ -6,8 +6,9 @@ terraform {
   }
 }
 
-resource "aws_s3_bucket" "srecoursebuf-s3" {
+resource "aws_s3_bucket" "test" {
   bucket = "terraformgithubactions-yeeeekkk"
+}
 #   versioning {
 #     enabled = true
 #   }
@@ -19,4 +20,4 @@ resource "aws_s3_bucket" "srecoursebuf-s3" {
 #       }
 #     }
 #   }
-}
+# }
