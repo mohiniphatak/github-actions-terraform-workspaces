@@ -7,6 +7,6 @@ terraform {
 }
 
 resource "aws_s3_bucket" "test" {
-  bucket = "terraformgithubactions-yeeeekkk"
+  bucket = "terraformgithubactions-yeeeekkk-dev-see"
 }
 
