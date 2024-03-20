@@ -6,7 +6,7 @@ terraform {
   }
 }
 
-# resource "aws_s3_bucket" "test" {
-#   bucket = "terraformgithubactions-yeeeekkk-dev-see"
-# }
+resource "aws_s3_bucket" "testnow" {
+  bucket = var.environment
+}
 
