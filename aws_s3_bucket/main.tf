@@ -7,7 +7,7 @@ terraform {
 }
 
 resource "aws_s3_bucket" "test" {
-  # bucket = var.environment+""
-  bucket    = "${var.environment}.my-bucket-yeeeeeeeeeee"
+  bucket = "some-shitty-bucket-name-qunitw"
+  # bucket    = "${var.environment}.my-bucket-yeeeeeeeeeee"
 }
 
